@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo Gaming</title>
+        <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/26a81f48f1.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="../index.html"><i class="fa-solid fa-gamepad"></i></a></li>
+                    <li><a href="componentes.html#ofertas">OFERTAS <i class="fas fa-money-bill"></i></a></li>
+                    <li><a href="contacto.html">Contacto <i class="fas fa-comment"></i></a></li>
+                    <li><a href="pc_armadas.html">PC Armadas <i class="fas fa-desktop"></i></a></li>
+                    <li><a href="componentes.html#componentes">Componentes <i class="fas fa-microchip"></i></a></li>
+                    <li><a href="iniciar.html">Iniciar Sesión <i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="componentes.html">Carrito <i class="fa-solid fa-dollar-sign"></i></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+    
+
+    <form class="iniciar" action="">
+    <div class="iniciar__contenedor2">   
+       <fieldset class="iniciar__form">
+        <h2>Crear Cuenta</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" placeholder="Nombre" name="nombre"><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" placeholder="Apellido" name="apellido"><br>
+
+        <label for="fechanac">Fecha de Nacimiento:</label>
+        <input type="date" name="fechanac" value="dd/mm/yyyy" min="1900-01-01 max" max="2004-12-31"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" value="email" name="email"><br>
+
+        <label for="genero">Genero:</label> <br>
+        <input class="genero" type="radio" name="genero" value="masc">Masculino <br>
+        <input class="genero" type="radio" name="genero" value="fem">Femenino <br>
+        <input class="genero" type="radio" name="genero" value="otro">Otro <br>
+        
+        <label for="password">Contraseña</label>
+        <input type="password" value="password" name="password"><br>
+
+        <label for="password2">Validar Contraseña</label>
+        <input type="password" value="password2" name="password2"><br>
+
+        <div class="contenedor__iniciarBtn">
+            <input type="submit" value="Registrar"><br>
+        </div>
+        <div class="contenedor__iniciarBtn">
+            <input type="reset" value="Resetear">
+        </div>
+    </div> 
+       </fieldset>
+    </form>
+
+    <footer>
+        <div class="footer__contenedor">
+    
+            <div class="footer__contenedor--informacion">
+                <h3>Informacion</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum officia, vitae laudantium esse similique dolor, possimus numquam aspernatur velit quidem blanditiis reprehenderit? Nisi debitis, veniam earum excepturi suscipit sequi? Sit!</p>
+            </div>
+    
+            <div class="footer__contenedor--redes">
+                <h3>Redes y Contactos</h3>
+                    <div class="contenedor__redes--lista">
+                    <ul>
+                        <li><a href="https://www.twitter.com/Tinchoide4" target="_blank"><img src="../img/twitter.png" alt="twitter"></a></li>
+                        <li><a href="https://www.instagram.com/martin_lovotti" target="_blank"><img src="../img/instagram.png" alt="ig"></a></li>
+                        <li><a href="https://www.facebook.com/martin_lovotti" target="_blank"><img src="../img/facebook.png" alt="facebook"></a></li><br>
+                        
+                    </ul>
+                    <ul>
+                        <li>Telefono: +54 9 11-1234-5678</li>
+                    </ul>
+                    </div>
+            </div>
+    
+             <div class="footer__contenedor--nosotros">
+                <h3>Sobre Nosotros</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dignissimos harum voluptatibus tempora omnis debitis, explicabo temporibus, ipsam exercitationem veniam magni consequatur adipisci officiis quia eveniet illo minima recusandae neque.</p>
+             </div>    
+        </div>
+    
+        <div class="copyright">
+            <p>Martin Fernández Lovotti - Todos los derechos reservados</p>
+        </div>
+        
+        </footer>
+    
+        <script src="js/wow.min.js"></script>
+        <script>
+           new WOW().init();
+        </script>
+</body>
+</html>
