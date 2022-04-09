@@ -44,6 +44,7 @@ h3{
 footer p{
     color: #fc744c;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main__titulo{
@@ -601,6 +602,10 @@ a[data-type='navbar-active']{
     color:#fc744c;
     box-shadow: 0 0 5px #fc744c;
     text-shadow: 0 0 5px #fc744c;
+  }
+
+  .footer__contenedor h3{
+    font-family: 'Bebas Neue', cursive;
   }
 
 
