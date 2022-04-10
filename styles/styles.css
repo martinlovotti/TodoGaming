@@ -1,3 +1,34 @@
+h1,h3,h4,ul,li{
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.iniciar__form h2{
+    font-family:'Bebas Neue', cursive;
+    font-size: 25px;
+}
+.botonResponsivo{
+    color: #fc744c;
+}
+.navbar-toggler-icon{
+    color: #fc744c;
+}
+.header{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.textarea{
+    height: 20px;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
 *{
     margin: 0;
     padding: 0;
@@ -68,7 +99,9 @@ footer p{
 .header__nav{
     background-color: #000;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-bottom: 0px;
+    padding-top: 0px;
     
 }
 
@@ -77,6 +110,8 @@ footer p{
 .header__nav ul{
     list-style: none;
     margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     
 }
 
@@ -125,7 +160,7 @@ footer p{
 
 .main__contenedor img{
     width: 200px;
-    height: 200px;
+    height: 300px;
    
 }
 
@@ -266,6 +301,7 @@ footer p{
 
 .iniciar--btn{
     width: 100px;
+    
 }
 
 .iniciar__contenedor--link{
@@ -296,9 +332,12 @@ a {
 
 .btn{
     width: 100px;
+    background-color: #111;
+    color: #fc744c;
 }
 .contacto__formulario--btn{
     display: flex;
+    justify-content: center;
 }
 
 .genero{
@@ -328,14 +367,14 @@ a {
 
     .main{
         overflow: scroll;
-        height: 75vh;
+        height: 30vh;
         
     }
 
     .main__contenedor{
         
         flex-direction: column;
-        height: auto;
+        height: 20vh;
         width: 75%;
         margin-bottom: 30px;
     }
@@ -445,14 +484,14 @@ a {
 
     .main{
         overflow: scroll;
-        height: 75vh;
+        height: 40vh;
         
     }
 
     .main__contenedor{
         
         flex-direction: column;
-        height: auto;
+        height: 30vh;
         width: 75%;
         margin-bottom: 25px;
     }
@@ -509,7 +548,8 @@ a {
 }
 
 .header__nav ul li a:hover{
-    color: aliceblue;
+    color:#111;
+    background-color: #fc744c;
 }
 
 
@@ -548,9 +588,7 @@ input:hover{
     color: #fc744c;
 }
 
-a[data-type='navbar-active']{
-    color: aliceblue;
-}
+
 
 .contenedor__redes--lista ul {
     margin: 0;
