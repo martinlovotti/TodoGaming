@@ -338,8 +338,8 @@ a {
 
 .btn{
     width: 100px;
-    background-color: #111;
-    color: #fc744c;
+    background-color: #fff;
+    color: #000;
 }
 .contacto__formulario--btn{
     display: flex;
