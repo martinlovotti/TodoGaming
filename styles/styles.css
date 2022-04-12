@@ -6,6 +6,10 @@ h1,h3,h4,ul,li{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+
+.nav--icon{
+    padding-top: 5px;
+}
 .iniciar__form h2{
     font-family:'Bebas Neue', cursive;
     font-size: 25px;
@@ -466,8 +470,14 @@ a {
         font-size: 16px;
      
     }
-
     
+    .producto_titulo{
+        font-size: 16px;
+    }
+    
+    .cajatexto{
+        width: 65vw;
+    }
 }
 
 @media (min-width:576px) and (max-width: 992px){ 
