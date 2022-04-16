@@ -1,0 +1,199 @@
+@media screen and (max-width: 576px){ 
+
+    .header__nav ul li {  
+        font-size: 15px;   
+    }
+    
+
+    h3{
+        font-size: 16px;
+    }
+
+    .main__titulo{
+        font-size: 25px;
+    }
+
+    .main{
+        overflow: scroll;
+        height: 30vh;
+        
+    }
+
+    .main__contenedor{
+        flex-direction: column;
+        height: 20vh;
+        width: 75%;
+        margin-bottom: 30px;
+        img{
+            width: 130px;
+            height: 130px;  
+        }
+    }
+
+    .footer__contenedor{
+        grid-template-columns: 1fr;
+        height: auto;
+        row-gap: 10px;
+        font-size: 13px;
+    }
+
+    .copyright{
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    input{
+        width: 120px;
+    }
+
+    .btn{
+        width: 100px;
+    }
+
+    .iniciar__form{
+        background-color: $colorPrincipal;
+        border-radius: 5px;
+        padding: 1.5rem;
+        border: solid 1px white;  
+        font-size: 14px;
+        input{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 14px;
+            margin: 2px;  
+        }
+        label{
+            font-size: 14px;  
+        }
+    }
+
+    
+    .genero{
+        width: 50px;
+    }
+    
+    .contenedor__iniciarBtn{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .iniciar--btn{
+        width: 100px;
+    }
+
+    .producto_descripcion{
+        font-size: 14px;
+    }
+    .contenedor_productos {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    .producto{
+        margin-bottom: 10px;
+    }
+
+    .producto--img {
+        width: 170px;
+        height: 170px;
+    }
+
+    .contacto__formulario fieldset label{
+        font-size: 16px;
+        input{
+            font-size: 16px;
+        }
+         
+    }
+
+    .contacto__formulario fieldset input{
+        font-size: 16px;
+     
+    }
+    
+    .producto_titulo{
+        font-size: 16px;
+    }
+    
+    .cajatexto{
+        width: 65vw;
+    }
+}
+
+@media (min-width:576px) and (max-width: 992px){ 
+
+    h3{
+        font-size: 22px;
+    }
+
+    .header__nav ul li {  
+        font-size: 18px; 
+    }
+
+    .main__titulo{
+        font-size: 25px;
+    }
+
+    .main{
+        overflow: scroll;
+        height: 40vh;
+        
+    }
+
+    .main__contenedor{
+        flex-direction: column;
+        height: 30vh;
+        width: 75%;
+        margin-bottom: 25px;
+        img{
+            width: 150px;
+            height: 150px;  
+        }
+    }
+
+    
+    .footer__contenedor{
+        grid-template-columns: 1fr;
+        height: auto;
+        row-gap: 10px;
+        justify-items: center;
+        img{
+            width: 40px;
+            
+        }
+    }
+
+    .contenedor_productos {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        padding: 1px;
+    }
+
+    .copyright{
+        padding: 10px;
+    }
+
+
+    .iniciar__contenedor2 {
+        color: white;
+        display: flex;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 14px;
+        label{
+            font-size: 14px;
+        }
+        input{
+            font-size: 14px;
+        }
+    }
+    .producto--img {
+        width: 200px;
+        height: 200px;
+    }
+}

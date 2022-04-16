@@ -22,11 +22,9 @@ h1,h3,h4,ul,li{
 }
 .header{
     padding-top: 0px;
-    
     display: flex;
     justify-content: space-between;
     padding-bottom: 0px;
-
 }
 .textarea{
     height: 20px;
@@ -75,7 +73,6 @@ h3{
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #f16f48c4;
-
 }
 
 footer p{
@@ -120,7 +117,6 @@ footer p{
     padding-bottom: 0px;
     
 }
-
 
 
 
