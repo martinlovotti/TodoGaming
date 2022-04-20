@@ -561,29 +561,6 @@ a {
 }
 
 
-ul li a img{
-    transition: all 1.5s;
-}
-ul li a img:hover{
-    transform: scale(1.5,1.5);
-}
-
-.main__contenedor a img{
-    transition: all 1.5s;
-}
-.main__contenedor a img:hover{
-    transform: scale(1.3,1.3);
-}
-
-.producto img{
-    transition: all 1s;
-}
-
-.producto img:hover{
-    transform:scale(1.1,1.1);
-   
-}
-
 .btn:hover{
     color: #fc744c;
 }

@@ -115,7 +115,8 @@ ul li a img {
 footer p {
   color: #fc744c;
   text-align: center;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px; }
 
 .copyright {
   display: flex;
@@ -141,6 +142,19 @@ h1, h3, h4, ul, li {
 html {
   font-family: 'Roboto', sans-serif; }
 
+.boton, .contacto__formulario fieldset input, .iniciar__form input {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 17px;
+  margin: 2px; }
+
+.titulosh3, h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  color: #fc744c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px; }
+
 .botonResponsivo {
   color: #fc744c; }
 
@@ -154,14 +168,6 @@ input {
   font-family: 'Roboto', sans-serif; }
   input:hover {
     color: #fc744c; }
-
-h3 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 25px;
-  color: #fc744c;
-  text-align: center;
-  padding-top: 10px;
-  margin-bottom: 10px; }
 
 .textarea {
   height: 20px; }
@@ -191,10 +197,10 @@ h3 {
   background-image: url(https://images.unsplash.com/photo-1550745165-9bc0b252726f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMDg4MDd8MHwxfHNlYXJjaHwzMXx8Y29tcHV0ZXJ8ZW58MHx8fHwxNjQ3OTA4Mzk5&ixlib=rb-1.2.1&q=80&w=1080); }
 
 .main__contenedor {
-  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80%;
   margin: 0 auto;
   border: solid 2px #fc744c;
   background-color: #f16f48c4; }
@@ -229,18 +235,15 @@ h3 {
 
 .contacto__formulario {
   display: flex;
-  height: 65vh;
   justify-content: center;
   align-items: center;
+  height: 65vh;
   padding: 2rem; }
   .contacto__formulario fieldset {
     background-color: #f16f48c4;
     border-radius: 5px;
-    padding: 1.2rem; }
-    .contacto__formulario fieldset input {
-      font-family: 'Bebas Neue', cursive;
-      font-size: 18px;
-      margin: 2px; }
+    padding: 1.5rem;
+    border: solid 1px white; }
   .contacto__formulario label {
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
@@ -248,26 +251,21 @@ h3 {
     margin-left: 5px;
     color: white; }
 
-.contacto__formulario fieldset input {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 18px;
-  margin: 2px; }
-
 .iniciar__contenedor {
   display: flex;
-  height: 55vh;
   justify-content: center;
   align-items: center;
+  height: 55vh;
   font-family: 'Bebas Neue', cursive;
   font-size: 18px;
   color: white; }
 
 .iniciar__contenedor2 {
-  color: white;
   display: flex;
-  height: 80vh;
   justify-content: center;
   align-items: center;
+  color: white;
+  height: 80vh;
   font-family: 'Bebas Neue', cursive;
   font-size: 18px; }
 
@@ -276,10 +274,6 @@ h3 {
   border-radius: 5px;
   padding: 1.5rem;
   border: solid 1px white; }
-  .iniciar__form input {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 17px;
-    margin: 2px; }
   .iniciar__form label {
     font-family: 'Bebas Neue', cursive;
     font-size: 17px; }
@@ -322,20 +316,10 @@ a {
 .genero {
   width: 50px; }
 
-ul li a img {
-  transition: all 1.5s; }
-  ul li a img:hover {
-    transform: scale(1.5, 1.5); }
-
 .main__contenedor a img {
   transition: all 1.5s; }
   .main__contenedor a img:hover {
     transform: scale(1.3, 1.3); }
-
-.producto img {
-  transition: all 1s; }
-  .producto img:hover {
-    transform: scale(1.1, 1.1); }
 
 @media screen and (max-width: 576px) {
   .header__nav ul li {
@@ -345,16 +329,15 @@ ul li a img {
   .main__titulo {
     font-size: 25px; }
   .main {
-    overflow: scroll;
-    height: 30vh; }
+    height: 60vh; }
   .main__contenedor {
     flex-direction: column;
-    height: 20vh;
+    height: 45vh;
     width: 75%;
     margin-bottom: 30px; }
     .main__contenedor img {
-      width: 130px;
-      height: 130px; }
+      width: 150px;
+      height: 150px; }
   .footer__contenedor {
     grid-template-columns: 1fr;
     height: auto;

@@ -13,6 +13,35 @@ h1,h3,h4,ul,li{
 html{
     font-family: 'Roboto', sans-serif;
 }
+
+@mixin flexbox-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$estilos:(
+    centro:center,
+    rem: 1.5rem,
+    fondoTransparente: #f16f48c4, 
+);
+
+.boton{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    margin: 2px;
+}
+
+.titulosh3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #fc744c;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+
 .botonResponsivo{
     color:$colorPrincipal;
 }
@@ -32,13 +61,10 @@ input{
     }
     
 h3{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    color:#fc744c;
-    text-align: center;
-    padding-top: 10px;
-    margin-bottom: 10px;    
+    @extend .titulosh3    
     }
+
+
 .textarea{
     height: 20px;
     }
@@ -74,10 +100,8 @@ h3{
 }
 
 .main__contenedor{
+    @include flexbox-center;
     height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     border: solid 2px #fc744c;
     background-color: $colorContenedor;
@@ -120,19 +144,16 @@ h3{
 }
 
 .contacto__formulario{
-    display: flex;
+    @include flexbox-center;
     height: 65vh;
-    justify-content: center;
-    align-items: center;
     padding: 2rem;
     fieldset{
         background-color: $colorContenedor;
         border-radius: 5px;
-        padding: 1.2rem;
+        padding: map-get($estilos,rem);
+        border: solid 1px white;
         input{
-            font-family: 'Bebas Neue', cursive;
-            font-size: 18px;
-            margin: 2px;
+            @extend .boton
         }
     }
     label{
@@ -146,27 +167,21 @@ h3{
 }
 
 .contacto__formulario fieldset input{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 18px;
-    margin: 2px;
+    @extend .boton
 }
 
 .iniciar__contenedor{
-    display: flex;
+    @include flexbox-center;
     height: 55vh;
-    justify-content: center;
-    align-items: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 18px;
     color: white;
 }
 
 .iniciar__contenedor2{
+    @include flexbox-center;
     color: white;
-    display: flex;
     height: 80vh;
-    justify-content: center;
-    align-items: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 18px;
 }
@@ -174,12 +189,10 @@ h3{
 .iniciar__form{
     background-color: $colorContenedor;
     border-radius: 5px;
-    padding: 1.5rem;
+    padding: map-get($estilos,rem);
     border: solid 1px white;
     input{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 17px;
-        margin: 2px;
+        @extend .boton
     }
     label{
         font-family: 'Bebas Neue', cursive;
@@ -236,12 +249,6 @@ a {
     width: 50px;
 }
 
-ul li a img{
-    transition: all 1.5s;
-    &:hover{
-        transform: scale(1.5,1.5);
-    }
-}
 
 .main__contenedor a img{
     transition: all 1.5s;
@@ -250,10 +257,5 @@ ul li a img{
     }
 }
 
-.producto img{
-    transition: all 1s;
-    &:hover{
-        transform:scale(1.1,1.1);
-    }
-}
+
 
