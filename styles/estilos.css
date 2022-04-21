@@ -127,7 +127,7 @@ footer p {
   justify-content: center;
   font-size: 14px; }
 
-h1, h3, h4, ul, li {
+h1, h3, h4, h5, ul, li {
   margin: 0;
   padding: 0;
   padding-top: 0px;
@@ -147,7 +147,7 @@ html {
   font-size: 17px;
   margin: 2px; }
 
-.titulosh3, h3 {
+.titulosh3, h3, h1, h4 {
   font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   color: #fc744c;
@@ -187,6 +187,8 @@ input {
   font-size: 35px; }
 
 .producto_titulo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
   transition: all .5s; }
   .producto_titulo:hover {
     color: aliceblue;
@@ -343,6 +345,8 @@ a {
     height: auto;
     row-gap: 10px;
     font-size: 13px; }
+    .footer__contenedor h4 {
+      font-size: 17px; }
   .copyright {
     padding: 10px;
     font-size: 12px; }
@@ -396,6 +400,8 @@ a {
 @media (min-width: 576px) and (max-width: 992px) {
   h3 {
     font-size: 22px; }
+  h4 {
+    font-size: 16px; }
   .header__nav ul li {
     font-size: 18px; }
   .main__titulo {
@@ -418,6 +424,10 @@ a {
     justify-items: center; }
     .footer__contenedor img {
       width: 40px; }
+    .footer__contenedor h4 {
+      font-size: 19px; }
+  h4 {
+    font-size: 19px; }
   .contenedor_productos {
     display: grid;
     grid-template-columns: 1fr;

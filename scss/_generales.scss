@@ -1,4 +1,4 @@
-h1,h3,h4,ul,li{
+h1,h3,h4,h5,ul,li{
     margin: 0;
     padding: 0;
     padding-top: 0px;
@@ -63,7 +63,12 @@ input{
 h3{
     @extend .titulosh3    
     }
-
+h1{
+    @extend .titulosh3
+}
+h4{
+    @extend .titulosh3;
+}
 
 .textarea{
     height: 20px;
@@ -87,6 +92,8 @@ h3{
 }
 
 .producto_titulo{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
     transition: all .5s;
     &:hover{
         color:aliceblue;
