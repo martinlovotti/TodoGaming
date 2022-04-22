@@ -2,6 +2,12 @@
 
 @media screen and (max-width: 576px){ 
 
+    .btn-comprar{
+        font-size: 17px;
+    }
+    .Compra{
+        margin-top: 5px;
+    }
     .header__nav ul li {  
         font-size: 15px;   
     }
@@ -129,7 +135,15 @@
 
 @media (min-width:576px) and (max-width: 992px){ 
 
-   
+    .producto {
+        margin-bottom: 10px;
+      }
+    .btn-comprar{
+        font-size: 19px;
+    }
+    .Compra{
+        margin-top: 5px;
+    }
     h3{
         font-size: 22px;
     }
