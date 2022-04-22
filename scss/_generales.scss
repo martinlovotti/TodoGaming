@@ -281,10 +281,11 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
     color:white;
     font-size:22px;
     text-align:center;
-    animation: neonGlow 2s infinite alternate $easeInOutQuad;
+    
     font-family:'Bebas Neue', cursive; ;
     &:hover{
-        color: #fc744c;
+        color: white;
+        animation: neonGlow 2s infinite alternate $easeInOutQuad;
     }
   }
   

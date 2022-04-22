@@ -342,10 +342,10 @@ a {
   color: white;
   font-size: 22px;
   text-align: center;
-  animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   font-family: 'Bebas Neue', cursive; }
   .btn-comprar:hover {
-    color: #fc744c; }
+    color: white;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); }
 
 @keyframes neonGlow {
   0% {
