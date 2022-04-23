@@ -2,6 +2,12 @@
 
 @media screen and (max-width: 576px){ 
 
+    .neon{
+        font-size: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .btn-comprar{
         font-size: 17px;
     }
@@ -134,6 +140,12 @@
 }
 
 @media (min-width:576px) and (max-width: 992px){ 
+
+    .neon{
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     .producto {
         margin-bottom: 10px;

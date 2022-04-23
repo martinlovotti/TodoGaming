@@ -353,7 +353,43 @@ a {
   100% {
     text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 8px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(220, 212, 66, 0.8), 0 0 30px rgba(220, 169, 66, 0.8), 0 0 40px rgba(209, 101, 24, 0.8), 0 0 50px rgba(241, 76, 11, 0.5), 0 0 80px rgba(255, 0, 0, 0.5); } }
 
+.padre {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf); }
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 4vw;
+  line-height: 4vw;
+  text-shadow: 0 0 3vw #F40A35;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite; }
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128; }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914; } }
+
 @media screen and (max-width: 576px) {
+  .neon {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   .btn-comprar {
     font-size: 17px; }
   .Compra {
@@ -432,6 +468,10 @@ a {
     width: 65vw; } }
 
 @media (min-width: 576px) and (max-width: 992px) {
+  .neon {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   .producto {
     margin-bottom: 10px; }
   .btn-comprar {
