@@ -13,7 +13,9 @@ h1,h3,h4,h5,ul,li{
 html{
     font-family: 'Roboto', sans-serif;
 }
-
+textarea{
+    font-family: 'Bebas Neue', cursive;
+}
 @mixin flexbox-center{
     display: flex;
     justify-content: center;
@@ -324,7 +326,7 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
 .padre{
     margin-top: 10px;
     padding: 5px;
-    margin-bottom: 15px;
+    
   }
   @font-face {
     font-family: neon;

@@ -147,6 +147,9 @@ h1, h3, h4, h5, ul, li {
 html {
   font-family: 'Roboto', sans-serif; }
 
+textarea {
+  font-family: 'Bebas Neue', cursive; }
+
 .boton, .contacto__formulario fieldset input, .iniciar__form input {
   font-family: 'Bebas Neue', cursive;
   font-size: 17px;
@@ -361,8 +364,7 @@ a {
 
 .padre {
   margin-top: 10px;
-  padding: 5px;
-  margin-bottom: 15px; }
+  padding: 5px; }
 
 @font-face {
   font-family: neon;
