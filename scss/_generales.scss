@@ -238,7 +238,6 @@ h4{
 a {
     text-decoration: none;
     color: white;
-    transition: 2s;
     &:hover{
         color:white;
         transform: scale(1.1,1.1);
@@ -361,3 +360,16 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
     }
   }
   
+.btn-inicio{
+    color: $colorPrincipal;
+    &:hover{
+        transform: scale(1.1, 1.1);
+        background-color: #000;
+        color: $colorPrincipal;
+    }
+    &::before{
+        transform: scale(1.1, 1.1);
+        background-color: #000;
+        color: $colorPrincipal;
+    }
+}
