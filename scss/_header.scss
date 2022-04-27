@@ -41,8 +41,11 @@
         text-decoration: none;
         color:  #fc744c;
         &:hover{
-            color:#111;
-            background-color: $colorPrincipal;
+            color:$colorPrincipal;
+            background-color: transparent;
+        }
+        &:focus{
+            color: #fc744c;
         }
     }
     
