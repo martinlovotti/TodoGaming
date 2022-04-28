@@ -60,7 +60,7 @@
     }
 
     input{
-        width: 120px;
+        width: 100%;
     }
 
     .btn{
@@ -68,7 +68,7 @@
     }
 
     .iniciar__form{
-        background-color: $colorPrincipal;
+        background-color: $colorContenedor;
         border-radius: 5px;
         padding: 1.5rem;
         border: solid 1px white;  
@@ -238,5 +238,8 @@
     .producto--img {
         width: 200px;
         height: 200px;
+    }
+    input{
+        width: 100%;
     }
 }

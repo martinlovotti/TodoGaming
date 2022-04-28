@@ -440,11 +440,11 @@ a {
     padding: 10px;
     font-size: 12px; }
   input {
-    width: 120px; }
+    width: 100%; }
   .btn {
     width: 100px; }
   .iniciar__form {
-    background-color: #fc744c;
+    background-color: #f16f48c4;
     border-radius: 5px;
     padding: 1.5rem;
     border: solid 1px white;
@@ -548,4 +548,6 @@ a {
       font-size: 14px; }
   .producto--img {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+  input {
+    width: 100%; } }
