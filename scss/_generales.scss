@@ -6,6 +6,12 @@ h1,h3,h4,h5,ul,li{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
+.fa-solid{
+    margin: 5px;
+}
+.fas{
+    margin: 5px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +21,11 @@ html{
 }
 textarea{
     font-family: 'Bebas Neue', cursive;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
 }
 @mixin flexbox-center{
     display: flex;
@@ -162,7 +173,7 @@ h4{
 
 .contacto__formulario{
     @include flexbox-center;
-    height: 85vh;
+    height: 55vh;
     padding: 2rem;
     fieldset{
         background-color: $colorContenedor;
@@ -331,6 +342,7 @@ $easeInOutQuad: cubic-bezier(0.455, 0.030, 0.515, 0.955);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .neon {
