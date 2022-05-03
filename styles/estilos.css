@@ -507,7 +507,7 @@ a {
     font-size: 25px; }
   .main {
     overflow: scroll;
-    height: 40vh; }
+    height: 65vh; }
   .main__contenedor {
     flex-direction: column;
     height: 30vh;
