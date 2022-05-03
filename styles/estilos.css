@@ -255,7 +255,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 85vh;
   padding: 2rem; }
   .contacto__formulario fieldset {
     background-color: #f16f48c4;
