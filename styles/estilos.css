@@ -510,7 +510,7 @@ a {
     height: 65vh; }
   .main__contenedor {
     flex-direction: column;
-    height: 30vh;
+    height: 45vh;
     width: 75%;
     margin-bottom: 25px; }
     .main__contenedor img {
