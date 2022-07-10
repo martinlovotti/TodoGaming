@@ -4,6 +4,6 @@ Mediante solo el uso de HTML y CSS, se crea este proyecto que forma las bases de
 
 ## Usos y Novedades
 
-El proyecto está finalizado. Se puede recorrer el sitio con total normalidad, apreciando animaciones y efectos realizadas por el mismo creador, tiene SEO incluido en caso de ser subida a un hosting y se utilizó SASS para aplicar estilos
+El proyecto está finalizado. Se puede recorrer el sitio con total normalidad, apreciando animaciones y efectos realizadas por el mismo creador, tiene SEO incluido en caso de ser subida a un hosting, se utilizó SASS para aplicar estilos y Bootstrap
 
 
