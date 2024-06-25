@@ -1,6 +1,4 @@
 # TodoGaming
-https://martinlovotti.github.io/TodoGaming/
-# Proyecto Desarrollo Web Coderhouse 💻
 
 Mediante solo el uso de HTML y CSS, se crea este proyecto que forma las bases de un ecommerce, cuenta con secciones de productos disponibles, ingreso, contactanos, about us y mas información acerca de las redes del creador.
 
